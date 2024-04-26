@@ -1,0 +1,22 @@
+.Note {
+    border: 5px solid #850;
+    padding: 20px;
+    color: #850;
+    background: #ffe19f;
+    cursor: grab;
+}
+
+.Note.red {
+    background: #c10;
+    color: #fff;
+}
+
+.Note.lime {
+    background: #0f0;
+    color: #050;
+}
+
+.Note.fixed {
+    border-color: #000;
+    cursor: default;
+}
